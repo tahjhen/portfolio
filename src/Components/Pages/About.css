@@ -1,0 +1,30 @@
+.about {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  text-align: center;
+  align-items: center;
+}
+.photo {
+  float: left;
+  width: 450px;
+  height: 280px;
+}
+/*
+p {
+  text-align: justify;
+  padding: 12px;
+ .square {
+  margin-right: 10px;
+  margin-left: 10px;
+} */
+
+@media screen and (max-width: 968px) {
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+  .txtBox {
+    font-size: 17px;
+  }
+}

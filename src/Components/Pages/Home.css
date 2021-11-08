@@ -1,0 +1,94 @@
+.overlay {
+  background-color: /*#212224*/ white;
+  color: black;
+  height: 100vh;
+}
+.Home {
+  text-align: center;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.wrapper {
+  display: flex;
+}
+
+.mainPic {
+  width: 70%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 20px;
+}
+.right {
+  align-items: center;
+  margin-top: 100px;
+  margin-right: 25px;
+}
+
+.banner {
+  font-size: 3rem !important;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.firstHr {
+  border: 3px solid rgba(9, 9, 121, 1);
+  border-radius: 5px;
+}
+
+.firstP {
+  /*margin-top: 20px;*/
+  font-size: 17px;
+}
+
+#down {
+  font-size: 2.5em;
+  color: rgba(9, 9, 121, 1);
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 968px) {
+  .mainPic {
+    width: 100%;
+    height: auto;
+  }
+  .banner {
+    font-size: 1.9rem !important;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    margin-top: 10px;
+  }
+  .overlay {
+    height: auto;
+  }
+}
