@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-
+import WebDev from "../../assests/web-dev main.jpg";
 export class Home extends Component {
   render() {
     return (
@@ -12,7 +12,8 @@ export class Home extends Component {
             </div>
             <img
               className="mainPic"
-              src="https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/08/Web-development-2.0.jpg.webp"
+              // src="https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/08/Web-development-2.0.jpg.webp"
+              src={WebDev}
               alt="WebDevImg"
               width="400px"
             />
