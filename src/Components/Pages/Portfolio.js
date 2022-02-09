@@ -92,12 +92,12 @@ function Portfolio() {
           <div className="box bottom orange" data-aos="flip-down">
             <a
               className="portfolio-links"
-              href="https://searcher-1.netlify.app"
+              href="https://carib-dev-blog.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>Searcher</h2>
-              <p>Built with React.js, Google Search API, Tailwind CSS</p>
+              <h2>Carib Developer's Blog</h2>
+              <p>Built with Next.js, GraphQL, GraphCMS Tailwind CSS</p>
               <img
                 src="https://assets.codepen.io/2301174/icon-karma.svg"
                 width="65px"
